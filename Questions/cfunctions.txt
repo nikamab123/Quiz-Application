@@ -1,0 +1,66 @@
+create table cfquestions(qid int(250) auto_increment not null primary key,question varchar(250),ans_id int(250)); 
+create table cfanswers values(aid int(250) auto_increment not null primary key,answer varchar(250),ans_id int(250));
+
+
+insert into cfquestions values(1,"Which of the following is true about return type of functions in C?",2);
+insert into cfanswers values(1,"Functions can return any type ",1);
+insert into cfanswers values(2,"Functions can return any type except array and functions ",1);
+insert into cfanswers values(3,"Functions can return any type except array, functions and union
+  ",1);
+insert into cfanswers values(4,"Functions can return any type except array, functions, function pointer and union ",1);
+
+
+
+insert into cfquestions values(2,"In C, parameters are always ",5);
+insert into cfanswers values(5,"Passed by value ",2);
+insert into cfanswers values(6,"Passed by reference ",2);
+insert into cfanswers values(7,"Non-pointer variables are passed by value and pointers",2);
+insert into cfanswers values(8,"Passed by value result",2);
+
+insert into cfquestions values(3,"Choose correct statement about Functions in C Language.",12);
+insert into cfanswers values(9,"A Function is a group of c statements which can be reused any number of times",3);
+insert into cfanswers values(10,"Every Function has a return type",3);
+insert into cfanswers values(11," Every Function may no may not return a value",3);
+insert into cfanswers values(12,"All the above,3)
+
+insert into cfquestions values(4,"A function which calls itself is called a ___ function.",15);
+insert into cfanswers values(13,"Self Function",4);
+insert into cfanswers values(14,"Auto Function",4);
+insert into cfanswers values(15,"Recusrsive Function",4);
+insert into cfanswers values(16,"Static Function",4);
+
+insert into cfquestions values(5,"The keyword used to transfer control from a function back to the calling function is ",20);
+insert into cfanswers values(17,"switch ",5);
+insert into cfanswers values(18,"goto ",5);
+insert into cfanswers values(19,"go back",5);
+insert into cfanswers values(20,"return ",5);
+
+insert into cfquestions values(6,"What are the types of functions in C Language? ",23);
+insert into cfanswers values(21,"Library Functions ",6);
+insert into cfanswers values(22,"Library Functions ",6);
+insert into cfanswers values(23,"Both Library and User Defined ",6);
+insert into cfanswers values(24,"None of the above ",6);
+
+insert into cfquestions values(7,"Choose correct statements about C Language Pass By Value. ",28);
+insert into cfanswers values(25,"Pass By Value copies the variable value in one more memory location ",7);
+insert into cfanswers values(26,"Pass By Value does not use Pointers ",7);
+insert into cfanswers values(27,"Pass By Value protects your source or original variables from changes in outside functions or called functions ",7);
+insert into cfanswers values(28,"All the above ",7);
+
+insert into cfquestions values(8,"What is the limit for number of functions in a C Program? ",32);
+insert into cfanswers values(29,"16 ",8);
+insert into cfanswers values(30,"31 ",8);
+insert into cfanswers values(31,"32",8);
+insert into cfanswers values(32,"No Limit",8);
+
+insert into cfquestions values(9,"Every C Program should contain which functionEvery C Program should contain which function? ",36);
+insert into cfanswers values(33,"printf()",9);
+insert into cfanswers values(34,"scanf()",9);
+insert into cfanswers values(35,"show() ",9);
+insert into cfanswers values(36," main()",9);
+
+insert into cfquestions values(10,"What is the minimum number of functions to be present in a C Program? ",37);
+insert into cfanswers values(37," 1",10);
+insert into cfanswers values(38," 2",10);
+insert into cfanswers values(39," 3",10);
+insert into cfanswers values(40," 4",10);

@@ -1,0 +1,22 @@
+ body {
+    margin:0;
+    background-image:url("background.jpg") ;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover; 
+    background-size: cover;
+    font-size:large;
+    
+  }
+  .about-section {
+    padding:20px;
+    margin:25px;
+    margin-top: 150px;
+    text-align: center;
+    background-color:black;
+    color:white;
+    height:500px; 
+    opacity:0.9;   
+    font-size: 25px;
+  }
+  

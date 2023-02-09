@@ -1,0 +1,182 @@
+
+
+create table cfilehandling(qid int(250) auto_increment not null primary key,question varchar(250),ans_id int(250)); 
+create table cfilehandlinganswers(aid int(250) auto_increment not null primary key,answer varchar(250),ans_id int(250));
+
+insert into cfilehandling values(1,"A data of the file is stored in …",2);
+insert into cfilehandling values(2,"A mode which is used to open an existing file for both reading and writing …",7);
+insert into cfilehandling values(3,"Select a function which is used to write a string to a file… ",11);
+insert into cfilehandling values(4,"Select a function which is used to read a single character from a file at a time? ",15);
+insert into cfilehandling values(5,"Select a function which is used as a formatted output file function… ",18);
+insert into cfilehandling values(6,"Select a program which get input data from datafile and also send output into datafile, it is called… ",24);
+insert into cfilehandling values(7,"Select text file in which data is stored in…. ",25);
+insert into cfilehandling values(8,"Select text file in which number  will take. ",30);
+insert into cfilehandling values(9,"Select which is true about a stream… ",36);
+insert into cfilehandling values(10,"Select in which of the following the character conversion is possible…. ",37);
+
+insert into cfilehandlinganswers(1,"Ram ",1);
+insert into cfilehandlinganswers(2,"Hard Disk ",1);
+insert into cfilehandlinganswers(3,"ROM ",1);
+insert into cfilehandlinganswers(4,"None ",1);
+insert into cfilehandlinganswers(5,"”W” ",2);
+insert into cfilehandlinganswers values(6," "W+" ",2);
+insert into cfilehandlinganswers values(7,""R+"",2);
+insert into cfilehandlinganswers values(8,""A+"",2);
+insert into cfilehandlinganswers values(9,"pits()",3);
+insert into cfilehandlinganswers values(10,"putc()",3);
+insert into cfilehandlinganswers values(11,"fputs()",3);
+insert into cfilehandlinganswers values(12,"fgets()",3);
+insert into cfilehandlinganswers values(13,"fscanf()",4);
+insert into cfilehandlinganswers values(14,"getch()",4);
+insert into cfilehandlinganswers values(15,"fgetc()",4);
+insert into cfilehandlinganswers values(16,"fgets()",4);
+insert into cfilehandlinganswers values(17,"printf()",5);
+insert into cfilehandlinganswers values(18,"fprintf()",5);
+insert into cfilehandlinganswers values(19,"puts()",5);
+insert into cfilehandlinganswers values(20,"fputs()",5);
+insert into cfilehandlinganswers values(21,"files ",6);
+insert into cfilehandlinganswers values(22,"file processing ",6);
+insert into cfilehandlinganswers values(23,"data files ",6);
+insert into cfilehandlinganswers values(24,"file handling ",6);
+insert into cfilehandlinganswers values(25,"ASCII code ",7);
+insert into cfilehandlinganswers values(26,"Binary code ",7);
+insert into cfilehandlinganswers values(27,"Octal code ",7);
+insert into cfilehandlinganswers values(28,"text code ",7);
+insert into cfilehandlinganswers values(29,"2 bytes ",8);
+insert into cfilehandlinganswers values(30,"4 bytes ",8);
+insert into cfilehandlinganswers values(31,"3 bytes ",8);
+insert into cfilehandlinganswers values(32,"8 bytes ",8);
+insert into cfilehandlinganswers values(33,"it is a general name given to a flow of data",9);
+insert into cfilehandlinganswers values(34,"it is simply a sequence of bytes.",9);
+insert into cfilehandlinganswers values(35,"it is a logical interface to the data file.",9);
+insert into cfilehandlinganswers values(36,"All of these ",9);
+insert into cfilehandlinganswers values(37,"text stream ",10);
+insert into cfilehandlinganswers values(38,"binary stream",10);
+insert into cfilehandlinganswers values(39,"output stream",10);
+insert into cfilehandlinganswers values(40,"input stream ",10);
+
+
+1.  A data of the file is stored in …
+1) Ram
+2) Hard disk
+3) Rom
+4) None
+2
+
+2. A mode which is used to open an existing file for both reading and writing …
+5)”W”
+6)”W+”
+7)”R+”
+8)”A+”
+Answer 7
+
+3.Select a function which is used to write a string to a file…
+
+9)pits()
+10)putc()
+11)fputs()
+12)fgets()
+Answer -11
+
+4. Select a function which is used to read a single character from a file at a time?
+13)fscanf()
+14)getch()
+15)fgetc()
+16)fgets()
+Answer:15
+
+5. Select a function which is used as a formatted output file function…
+17)printf()
+18)fprintf()
+19)puts()
+20)fputs()
+Answer-:18
+
+6.Select a program which get input data from datafile and also send output into datafile ,it is called…
+21)files
+22)file processing
+23)data files
+24)file handling
+Answer - 24
+ 
+
+7.Select text file in which data is stored in….
+25)ASC11 code
+26)Binary code
+27)Octal code
+28)text code
+Answer -25
+ 
+
+8. Select text file in which number  will take.
+29)2 bytes
+30)4 bytes
+31)3 bytes
+32)8bytes
+Answer -30
+
+
+9. Select which is true about a stream…
+33)it is a general name given to a flow of data
+34)it is simply a sequence of bytes.
+35)it is a logical interface to the data file.
+36)all of these.
+Answer - 36
+
+10. select in which of the following the character conversion is possible….
+37)text stream
+38)binary stream
+39)output stream
+40)input stream
+
+Answer -37
+
+11. Select which is  used for the next line marker….
+41)’\r’
+42)’\n’
+43)’\r’
+44)’\0’
+Answer :42
+
+12. which Is data type of file pointer is….
+45)int
+46)double
+47)void
+48)File
+Answer - 48
+
+insert into cfquestions values(5," ",15);
+insert into cfanswers(17," ",5);
+insert into cfanswers(18," ",5);
+insert into cfanswers(19," ",5);
+insert into cfanswers(20," ",5);
+
+insert into cfquestions values(6," ",15);
+insert into cfanswers(21," ",6);
+insert into cfanswers(22," ",6);
+insert into cfanswers(23," ",6);
+insert into cfanswers(24," ",6);
+
+insert into cfquestions values(7," ",15);
+insert into cfanswers(25," ",7);
+insert into cfanswers(26," ",7);
+insert into cfanswers(27," ",7);
+insert into cfanswers(28," ",7);
+
+insert into cfquestions values(8," ",15);
+insert into cfanswers(29," ",8);
+insert into cfanswers(30," ",8);
+insert into cfanswers(31," ",8);
+insert into cfanswers(32," ",8);
+
+insert into cfquestions values(9," ",15);
+insert into cfanswers(33," ",9);
+insert into cfanswers(34," ",9);
+insert into cfanswers(35," ",9);
+insert into cfanswers(36," ",9);
+
+insert into cfquestions values(10," ",15);
+insert into cfanswers(37," ",10);
+insert into cfanswers(38," ",10);
+insert into cfanswers(39," ",10);
+insert into cfanswers(40," ",10);

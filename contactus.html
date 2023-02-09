@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- <link rel="stylesheet" type="text/css" href="contactus.css"> -->
+  <link rel="stylesheet" href="navbar.css">
+
+
+  <style>
+      body {
+        background-image: url("background.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow: hidden;
+      }
+
+      
+
+      .wrapper {
+        width: 96%;
+        height: 500px;
+        margin: 20px;
+        margin-top: 200px;
+        margin-right: 20px;
+        background-color: white;
+        align-items: center;
+        background-image: url("bc4.jpg");
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        margin-left: 35px;
+        border-radius: 10px;
+        opacity: 1;
+        font-size: 25px;
+
+      }
+
+      .column {
+        float: left;
+        width: 32%;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: content-box;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: left;
+        background-color: #474e5d;
+        color: blue;
+      }
+
+      .container {
+        padding: 16px;
+        margin: 150px 20px;
+        text-align: center;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: red;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: w#555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="Home.php">Home</a></li>
+      <li><a href="quizzes.html">Quizzes</a></li>
+      <li><a href="about.html">About us </a></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="logout.php">Log out</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="wrapper">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2>Anjali Nikam.</h2>
+          <p class="title">student of CSE</p>
+          <p>nkmanjali@gmail.com</p>
+          <p><a href="mailto:nkmanjali@gmail.com"><button class="button">Contact</button></a></p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2>Pratiksha Yadav.</h2>
+          <p class="title">student of CSE</p>
+          <p>pratikshayadav802@gmail.com</p>
+          <p><a href="mailto:pratikshayadav802@gmail.com"><button class="button">Contact</button></a></p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <h2>Priyanka Patil.</h2>
+          <p class="title">student of CSE</p>
+          <p>patilpriyanka2208@gmail.com</p>
+          <p><a href="mailto:patilpriyanka2208@gmail.com"><button class="button">Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </center>
+  </div>
+</body>
+
+</html>

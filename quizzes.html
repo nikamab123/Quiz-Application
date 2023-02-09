@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link rel="stylesheet" type="text/css" href="quizzes.css">
+    <style>
+      *{
+        padding:0px;
+        margin:0x;
+       }
+        body{
+            background-image:url("background.jpg") ;
+            background-position: center;
+            background-attachment:fixed;
+            background-size:cover;
+        }
+        nav{
+            align-items: center;
+        }
+        .navbar{
+            margin:10px;
+            height:200px;
+            position:center;
+            align-items:center;
+            padding:5px;
+            padding-left:20px; 
+        }
+
+        .navbar ul{
+            padding:1px;
+            width:1600px;
+        }
+
+        .navbar ul li { 
+            float:left;
+            background-color:black;
+            color:white;
+            width:320px;
+            list-style:none;
+            height:70px;
+            line-height:50px;
+            font-size:22px;
+            text-align:center;
+            opacity:0.6;
+            cursor:pointer;
+        } 
+        .navbar ul li a{
+            padding:3px 3px;
+            text-decoration:none;
+            color:white;
+            display:block;
+            text-align:center;
+        }
+        .navbar ul li a:hover {
+            color:red; 
+        }       
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="nv">
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <li><a href="about.html">About us </a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="logout.php">Log out</a></li>
+      </ul>
+    </nav>
+    <!-- -----------------------Boxes------------------------------- -->
+
+<center>
+<div class="boxes">
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                <h1>C</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    <!-- Quiz will be based on different modules of c which includes basics, datatypes, functions, pointers etc.
+                    <br>Time limit:
+                    <br>Marks:
+                    <br>Total no of questions: -->
+                 
+                </p>
+                <a href="cbasics.php" class="btn">Basics</a>
+                <a href="cfquestions.php" class="btn">Functions & Pointers</a>
+                <a href="cfilehandling.php" class="btn">File Handling</a>
+                <a href="cgraph.php" class="btn">Result Report</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h1>CPP</h1>
+            </div>
+            <div class="card-body">
+                <p>
+               
+                </p>
+                <a href="cbasics.php" class="btn">Basics</a>
+                <a href="cfquestions.php" class="btn">Functions & Pointers</a>
+                <a href="cfilehandling.php" class="btn">File Handling</a>
+                <a href="cgraph.php" class="btn">Result Report</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h1>Java</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                </p>
+                <a href="cbasics.php" class="btn">Basics</a>
+                <a href="cfquestions.php" class="btn">Functions & Pointers</a>
+                <a href="cfilehandling.php" class="btn">File Handling</a>
+                <a href="cgraph.php" class="btn">Result Report</a>
+            </div>
+        </div>
+    
+
+        
+    </div>
+</div>
+</center>
+</body>
+</html>
